@@ -1,6 +1,6 @@
 import 'lazysizes';
 import '../styles/main.css';
-import Main from './app';
+const Main = require('./app.js').default;
 
 const app = new Main({
   hamburgerBtn: document.getElementById('hamburger-button'),
