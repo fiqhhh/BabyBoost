@@ -1,4 +1,4 @@
-import changeDynamicContent from '../../utils/dynamic-content-changer';
+import changeDynamicContent from '../../utils/dynamic-content-changer.js';
 
 class LandingPage {
   constructor() {

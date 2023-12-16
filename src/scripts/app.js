@@ -1,8 +1,8 @@
-import routes from './routes/routes';
-import UrlParser from './routes/url-parser';
-import DrawerInitiator from './utils/drawer-toggle';
-import btnInitiator from './utils/go-to-topBtn-initiator';
-import LandingPage from './view/pages/landing-page';
+import routes from './routes/routes.js';
+import UrlParser from './routes/url-parser.js';
+import DrawerInitiator from './utils/drawer-toggle.js';
+import btnInitiator from './utils/go-to-topBtn-initiator.js';
+import LandingPage from './view/pages/landing-page.js';
 
 class Main {
   constructor({

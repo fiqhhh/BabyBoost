@@ -1,6 +1,6 @@
 import {
   rowContent1, rowContent2, rowContent3, rowContent4,
-} from '../view/templates/templateCreator';
+} from '../view/templates/templateCreator.js';
 
 const changeDynamicContent = (dynamicContent, templateIndex) => {
   dynamicContent.classList.add('fade-out');

@@ -1,4 +1,4 @@
-const { default: home } = require('../view/pages/landing-page');
+import home from '../view/pages/landing-page.js';
 
 const routes = {
   '/': home,
